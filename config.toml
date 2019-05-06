@@ -38,6 +38,12 @@ paginate = 10
     url  = "/contact/"
     weight = 4
 
+[[menu.main]]
+    name = "Team"
+    url  = "/team/"
+    weight = 5
+
+
 # Top bar social links menu
 
 [[menu.topbar]]
