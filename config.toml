@@ -5,9 +5,10 @@ DefaultContentLanguage = "en"
 disableLanguages = [""] # desable language from here
 
 [params]
-logo = "images/logo.png"
+#logo = "images/logo.png"
+logo = "images/logo-my.png"
 mail = "info@companyname.com"
-mobile = "1234565523"
+mobile = "123456789"
 # Meta data
 description = "Airspace Hugo theme"
 author = "themefisher"
@@ -29,10 +30,10 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
   
   # English
   [Languages.en]
-  languageName = "En"
+  languageName = ""
   languageCode = "en-us"
   weight = 1
-  title = "Biztrox"
+  title = "Semant.org"
   home = "Home"
 
   # navigation
@@ -58,10 +59,10 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
     URL = "/team"
     weight = 6
     
-    [[Languages.en.menu.nav]]
-    name = "Pricing"
-    URL = "/pricing"
-    weight = 7
+    #[[Languages.en.menu.nav]]
+    #name = "Pricing"
+    #URL = "/pricing"
+    #weight = 7
     
     [[Languages.en.menu.nav]]
     name = "Contact"
@@ -82,8 +83,8 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
       # Quote Button
       [Languages.en.params.quoteBtn]
       enable = true
-      btnText = "get a quote"
-      btnURL = "#"
+      btnText = "Russian language"
+      btnURL = "/fr/"
 
       # about
       [Languages.en.params.about]
@@ -175,7 +176,8 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
 
       # footer
       [Languages.en.params.footer]
-      logo = "images/logo-footer.png"
+      #logo = "images/logo-footer.png"
+      logo = "images/logo-footer-my.png"
       content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim."
 
       # service links
@@ -189,7 +191,7 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
       subscribeContent = "Lorem ipsum dolor sit amet, consect etur adipisicing. elit sed do eiusmod."
 
       # copyright
-      copyright = "Bizpro</span> &copy; 2017 All Right Reserved"
+      copyright = "semant.org</span> &copy; 2019 All Right Reserved"
 
         # social icon
         [[Languages.en.params.footer.socialIcon]]
@@ -288,7 +290,7 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
 
 # Franch
   [Languages.fr]
-  languageName = "Fr"
+  languageName = ""
   languageCode = "fr-fr"
   weight = 1
   title = "Biztrox Franch"
@@ -327,10 +329,10 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
       name = "FR-Project"
       URL = "/fr/project"
 
-      [[Languages.fr.menu.nav]]
-      parent = "FR-Pages"
-      name = "FR-Pricing"
-      URL = "/fr/pricing"
+      #[[Languages.fr.menu.nav]]
+      #parent = "FR-Pages"
+      #name = "FR-Pricing"
+      #URL = "/fr/pricing"
 
       [[Languages.fr.menu.nav]]
       parent = "FR-Pages"
@@ -341,8 +343,8 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
       # Quote Button
       [Languages.fr.params.quoteBtn]
       enable = true
-      btnText = "get a quote"
-      btnURL = "#"
+      btnText = "English language"
+      btnURL = "/"
 
       # about
       [Languages.fr.params.about]
@@ -434,7 +436,8 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
 
       # footer
       [Languages.fr.params.footer]
-      logo = "images/logo-footer.png"
+      #logo = "images/logo-footer.png"
+      logo = "images/logo-footer-my.png"
       content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim."
 
       # service links
@@ -448,8 +451,8 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
       subscribeContent = "Lorem ipsum dolor sit amet, consect etur adipisicing. elit sed do eiusmod."
 
       # copyright
-      copyright = "Bizpro</span> &copy; 2017 All Right Reserved"
-
+      copyright = "Semant.org</span> &copy; 2019 All Right Reserved"
+                                               
         # social icon
         [[Languages.fr.params.footer.socialIcon]]
         icon = "ti-facebook"
