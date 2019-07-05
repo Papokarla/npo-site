@@ -1,11 +1,13 @@
 ---
-title: "Economics Meter"
+title: "В разработке"
+# title: "Economics Meter"
 bgImage: images/background/page-title.jpg
-date: 2018-09-24T11:11:24+06:00
+date: 2019-07-05T11:11:24+06:00
 description : "This is meta description"
-author: John Lincon
+author: Semant.org
 type: post
-image: images/blog/blog-4.jpg
+image: images/blog/web-development.jpg
+# image: images/blog/blog-4.jpg
 categories: 
   - "Consultancy"
 tags:

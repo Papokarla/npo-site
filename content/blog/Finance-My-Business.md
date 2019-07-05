@@ -1,11 +1,13 @@
 ---
-title: "Finance My Business"
+title: "В разработке"
+# title: "Finance My Business"
 bgImage: images/background/page-title.jpg
-date: 2018-09-24T11:10:07+06:00
+date: 2019-07-05T11:10:07+06:00
 description : "This is meta description"
-author: John Lincon
+author: Semant.org
 type: post
-image: images/blog/blog-5.jpg
+image: images/blog/web-development.jpg
+# image: images/blog/blog-5.jpg
 categories: 
   - "Profit & Growth"
 tags:

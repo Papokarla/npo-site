@@ -1,8 +1,10 @@
 ---
-title: "Valuable Idea"
+title: "ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ"
+# title: "Valuable Idea"
 date: 2018-09-29T11:51:17+06:00
 description : "This is meta description"
-image: images/service/service-2.jpg
+image: images/service/service-2-my.jpg
+# image: images/service/service-2.jpg
 bgImage: images/background/page-title.jpg
 icon: ti-thought
 brochureURL: '#'
@@ -14,8 +16,10 @@ offDay: Friday
 type : service
 ---
 
-### Marketing Oriented To The Targated Customers
+### Робототехника, аниматы, роевые задачи, автоматическая обработка текстов, умные контракты, рекомендательные системы, интернет вещей.
+<!-- ### Marketing Oriented To The Targated Customers -->
 
+Система легковесна и может использоваться в Интернете Вещей и робототехнике.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 

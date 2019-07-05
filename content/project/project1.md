@@ -1,16 +1,20 @@
 ---
-title: "Finance Consultancy"
+# title: "Finance Consultancy"
+title: "Автоматизация запуска турбин"
 date: 2018-09-24T14:48:03+06:00
 description : "This is meta description"
 bgImage: images/background/page-title.jpg
-tag : Ecommerce Advice
-image : images/project/project-8.jpg
+# tag : Ecommerce Advice
+tag : Индустриальные партнеры
+# image : images/project/project-8.jpg
+image : images/project/project-8-my.jpg
 client : Baximco Ltd.
 category : Market Strategy
 expertise : Mobile App
 liveDemoURL : '#'
 caseStudy : '#'
-type : project
+type : projectnpo
+# type : project
 filterCategories: Marketing-Online
 ---
 

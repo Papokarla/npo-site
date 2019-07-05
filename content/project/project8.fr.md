@@ -10,7 +10,7 @@ category : Market Strategy
 expertise : Mobile App
 liveDemoURL : '#'
 caseStudy : '#'
-type : project
+# type : project
 filterCategories: Ecomerce-Advice, Financing
 ---
 

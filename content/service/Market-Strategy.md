@@ -1,8 +1,10 @@
 ---
-title: "Market Strategy"
+title: "ФИНТЕХ, ТЕЛЕКОМ"
+# title: "Market Strategy"
 date: 2018-09-29T11:54:02+06:00
 description : "This is meta description"
-image: images/service/service-3.jpg
+image: images/service/service-3-my.jpg
+# image: images/service/service-3.jpg
 bgImage: images/background/page-title.jpg
 icon: ti-server
 brochureURL: '#'
@@ -14,8 +16,10 @@ offDay: Friday
 type : service
 ---
 
-### Marketing Oriented To The Targated Customers
+### Управление платежами, управление услугами, обработка фрода, маршрутизация, рекомендации, биржевой прогноз.
+<!-- ### Marketing Oriented To The Targated Customers -->
 
+Применение ESDP в разы сокращает стоимость владения продуктом для заказчика, так как не требует программирования при изменении логики.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
