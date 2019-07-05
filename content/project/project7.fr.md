@@ -10,7 +10,8 @@ category : Market Strategy
 expertise : Mobile App
 liveDemoURL : '#'
 caseStudy : '#'
-type : project
+# type : project
+type : unusedproject
 filterCategories: Dynamic-Development, Financing
 ---
 

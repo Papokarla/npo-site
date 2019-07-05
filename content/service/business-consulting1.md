@@ -11,7 +11,7 @@ regularTime: 08.00am - 06.00pm
 halfDay: Thursday
 halfTime: 08.00am - 01.00pm
 offDay: Friday
-type : service
+type : unusedservice
 ---
 
 ### Marketing Oriented To The Targated Customers

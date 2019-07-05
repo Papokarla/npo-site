@@ -1,0 +1,38 @@
+enable : true
+# titleSM : Best Service
+titleSM : Используя научные разработки Сибирской математической школы мы уже применяем
+# title : Why Choose Us
+title : Семантический ИИ в коммерческих проектах!
+content: В Институте Математики в Новосибирске с 1971 года разрабатывается теория, которая легла в основу Семантического ИИ (Semantic DataMining & Semantic Discovery). Сегодня уже получены результаты ее применения в различных областях, которые показали преимущество перед другими методами ИИ, включая нейронные сети.
+# content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt laboris nisi ut aliquip ex ea commodo consequat. <br><br> Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum. sed perspiciatis unde omnisiste natus error sit voluptatem accusantium.doloremque ladantium totam rem aperieaque ipsa quae ab illo inventore.veritatis. et quasi architecto beatae vitae dicta sunt explicabo.
+counter :
+  - icon : ti-server
+    title : Объем рынка в России в 2018 (млрд руб). (0,2% от мирового). 
+    count : 2.1
+    
+  - icon : ti-face-smile
+    title : К 2024 г. он увеличится до (трн руб). (1,8% от мирового). 
+    # title : Satisfied Clients
+    count : 160
+    
+  - icon : ti-thumb-up
+    title : Стран признали критическую важность ИИ и приняли соответствующие национальные стратегии
+    # title : Cup Of Coffee
+    count : 30
+
+progressBar : 
+  - title : Медицина. Система диагностики рака
+    # title : Branding
+    progress : 100%
+    
+  - title : Финансовый прогноз
+    # title : Consulting
+    progress : 100%
+    
+  - title : Биоинформатика
+    # title : Business
+    progress : 100%
+    
+  - title : Адаптивные системы, аниматы
+    # title : Promotion
+    progress : 100%

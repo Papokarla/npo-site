@@ -1,16 +1,20 @@
 ---
-title: "Finance Consultancy"
-date: 2018-09-24T14:48:03+06:00
+# title: "Finance Consultancy"
+title: "Цифровая железная дорога"
+# date: 2018-09-24T14:48:03+06:00
 description : "This is meta description"
 bgImage: images/background/page-title.jpg
-tag : Ecommerce Advice
-image : images/project/project-3.jpg
+# tag : Ecommerce Advice
+tag : Индустриальные партнеры
+image : images/project/project-3-my.jpg
+# image : images/project/project-3.jpg
 client : Baximco Ltd.
 category : Market Strategy
 expertise : Mobile App
 liveDemoURL : '#'
 caseStudy : '#'
-type : project
+type : projectnpo
+# type : project
 filterCategories: Business-Strategy, Dynamic-Development
 ---
 

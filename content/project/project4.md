@@ -1,16 +1,20 @@
 ---
-title: "Finance Consultancy"
-date: 2018-09-24T14:48:03+06:00
+# title: "Finance Consultancy"
+title: "Поиск информации в открытых источниках"
+# date: 2018-09-24T14:48:03+06:00
 description : "This is meta description"
 bgImage: images/background/page-title.jpg
-tag : Ecommerce Advice
-image : images/project/project-4.jpg
+tag : Индустриальные партнеры
+# tag : Ecommerce Advice
+image : images/project/project-4-my.jpg
+# image : images/project/project-4.jpg
 client : Baximco Ltd.
 category : Market Strategy
 expertise : Mobile App
 liveDemoURL : '#'
 caseStudy : '#'
-type : project
+type : projectnpo
+# type : project
 filterCategories: Marketing-Online, Financing
 ---
 

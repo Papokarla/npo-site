@@ -1,0 +1,40 @@
+{{ "<!-- Sidebar -->" | safeHTML }}
+<div class="col-lg-4">
+    <div class="bg-white px-4 py-100 sidebar-box-shadow">
+        {{ "<!-- categories -->" | safeHTML }}
+        <div class="mb-50">
+            <h4 class="mb-3">Категории</h4>
+            {{- if isset .Site.Taxonomies "categories" }}
+            {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
+            <ul class="list-unstyled mb-0">
+                {{- range $name, $items := .Site.Taxonomies.categories }}
+                <li class="border-bottom">
+                    <a href="{{ "categories/" | relLangURL }}{{ $name | urlize | lower }}" class="d-block text-color py-10">{{ $name | title | humanize }}</a>
+                </li>
+                {{- end }}
+            </ul>
+            {{- end }}
+            {{- end }}
+        </div>
+
+        {{ "<!-- Widget Recent Post -->" | safeHTML }}
+        <div class="mb-50">
+            <h4 class="mb-3">Новости компании</h4>
+            {{ range first 3 (where .Site.Pages "Type" "post") }}
+            {{ "<!-- post -->" | safeHTML }}
+            <div class="d-flex py-3 border-bottom">
+                <div class="mr-4">
+                    <a href="{{ .Permalink }}">
+                        <img class="rounded img-fluid recent-post-thumb" src="{{ .Params.image | absURL }}" alt="post-thumb">
+                    </a>
+                </div>
+                <div>
+                    <h6 class="mb-3">
+                        <a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h6>
+                    <p class="meta">{{ .PublishDate.Format "02 Jan 2006" }}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+</div>

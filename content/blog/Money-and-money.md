@@ -1,11 +1,12 @@
 ---
-title: "Money and Money"
+title: "В разработке"
 bgImage: images/background/page-title.jpg
-date: 2018-09-24T11:10:46+06:00
-author: John Lincon
+date: 2019-07-05T11:10:46+06:00
+author: Semant.org
 description : "This is meta description"
 type: post
-image: images/blog/blog-6.jpg
+image: images/blog/web-development.jpg
+# image: images/blog/blog-6.jpg
 categories: 
   - "Marketing Guidance"
 tags:

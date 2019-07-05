@@ -1,0 +1,53 @@
+enable : true
+sliderItem:
+  - subHeading : Мы сотрудничаем с инвесторами
+    heading : для интеграции науки, образования и производственных задач
+    description : создание посевного венчурного фонда для поддержки венчурных проектов  с момента старта проекта <br> инвестиции в инфраструктуру AI-кластера <br> преимущественное право на проведении НИОКР <br> формирование схемы для получения прибыли на вложенные инвестиции
+    # bgImage : images/banner/banner-1.jpg
+    bgImage : images/banner/banner-1-my.jpg
+    # dataIcon : ti-comments
+    dataIcon : ti-money
+    dataText : Инвестиционные партнеры
+    btn : 
+      enable : true
+      btnText: Подробнее
+      btnURL : 'posts/elaboration'
+      
+  - subHeading : Мы решаем задачи
+    heading : используя самые современные научные разработки
+    description : Индустриальные партнеры выступают заказчиком новых проектов для резидентов  AI-кластера, <br> являются экспертами  по проектам.
+    # bgImage : images/banner/banner-2.jpg
+    bgImage : images/banner/banner-2-my.jpg
+    # dataIcon : ti-bar-chart
+    dataIcon : ti-package
+    dataText : Индустриальные партнеры
+    btn : 
+      enable : true
+      btnText: Подробнее
+      btnURL : 'posts/elaboration'
+      
+  - subHeading : Мы тесно сотрудничаем
+    heading : с Новосибирским Государственным Университетом
+    description : преподаватели образовательных учреждений, выступают экспертами и консультантами, <br> сохраняют контакт со своими студентами для дальнейшей научной работы, <br> НГУ как университет НТИ, включение венчурных проектов в программы НТИ.
+    # bgImage : images/banner/banner-3.jpg
+    bgImage : images/banner/banner-3-my.jpg
+    # dataIcon : ti-money
+    dataIcon : ti-package
+    dataText : Научные учреждения
+    btn : 
+      enable : true
+      btnText: Подробнее
+      btnURL : 'posts/elaboration'
+      
+  - subHeading : Мы реализуем проекты
+    heading : в рамках правительственных программ
+    # description : описание <br> описание <br> описание
+    # bgImage : images/banner/banner-4.jpg
+    bgImage : images/banner/banner-4-my.jpg
+    dataIcon : ti-package
+    dataText : Правительство
+    btn : 
+      enable : true
+      btnText: Подробнее
+      btnURL : 'posts/elaboration'
+
