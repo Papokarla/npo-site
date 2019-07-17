@@ -1,22 +1,53 @@
 philosophy :
   enable : true
-  titleSM : Know About
-  title : Our Philosophy
-  content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex commodo consequat. duis aute irure dolor in reprehenderivoluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat noproident sunt culpa qui officia deserunt mollit anim id est laborum.<br> Sed perspiciatis unde omnisiste natus error sit voluptatem accusantium.doloremque ladantium totam rem aperieaque ipsa quae ab illo inventore.veritatis. et quasi architecto beatae vitae dicta sunt explicabo.
+  # titleSM : Know About  
+  titleSM : Какую проблему 
+  title : Мы решаем
+  # title : Our Philosophy
+  content : Венчурные инвестиции в наукоемкие проекты и компании (deep tech) остаются одними из наиболее популярных инструментов на Американском и Европейском рынках. <br> <br> Популярность среди инвесторов объясняется тем, что в отличие от «обычного, проверенного» бизнеса, deep tech тяжело скопировать конкурентам, так как в основе лежат научные разработки и НИОКР.
   image : images/about/philosophy.jpg
-  btn :
-    enable : true
-    btnText : Explore More
-    btnURL : "#"
+  # btn :
+  #   enable : true
+  #   btnText : Explore More
+  #   btnURL : "#"
 
 ceo :
   enable : true
   bgImage : images/about/ceo.jpg
-  title : We are efficient to <br> make your business rise
-  content : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex commodo consequat. duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
-  signature : images/about/ceo-signature.png
-  name : John Doe
-  designation : CEO
+  title : Но из преимуществ deep tech <br> проистекают и сложности для инвесторов и производства
+  # title : We are efficient to <br> make your business rise
+  content : Инвесторам сложно разобраться в научных и технических деталях того или иного проекта. Также известно, что инвестиции в deep tech требуют гораздо большего временного периода для получения прибыли и требуют дополнительных вложений в НИОКР. Тоже самое верно и для производства. В России на сегодняшний момент производство не готово инвестировать в проекты класса deep tech, даже если они решают важные производственные задачи. Требуется либо готовое решение, либо инвестор.
+  # signature : images/about/ceo-signature.png
+  # name : John Doe
+  # designation : CEO
+
+philosophy1 :
+  enable : true
+  # titleSM : Know About  
+  titleSM : Мы предлагаем 
+  title : проблемно-ориентированный подход
+  # title : Our Philosophy
+  content : Во главу угла ставится конкретная проблема, которую хочет решить индустриальный партнер, чтобы достичь нужных целей в бизнесе.
+  image : images/about/philosophy1.jpg
+  description : Наше решение
+  content1 : Cоздаются прорывные технологии
+  # description : Производство
+  # content1 : Получает решение проблемы с применением новейших научных подходов
+
+      # [[Languages.ru.params.about.listLeft]]
+      # listItem = "Снижаются риски"
+  # listLeft : Снижаются риски
+  # listItem : Получает решение проблемы
+  #   [[Languages.ru.params.about.listLeft]]
+  #   listItem = "Audit & Assurance"
+        
+  #   [[Languages.ru.params.about.listLeft]]
+  #   listItem = "IT Control Solutions"
+
+  btn :
+    enable : true
+    btnText : Explore More
+    btnURL : "#"
 
 funfacts : 
   enable : true

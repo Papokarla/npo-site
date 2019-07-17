@@ -6,7 +6,7 @@ description : "This is meta description"
 bgImage: images/background/page-title.jpg
 tag : Индустриальные партнеры
 # tag : Ecommerce Advice
-image : images/project/project-4-my.jpg
+image : images/project/project-41-my.jpg
 # image : images/project/project-4.jpg
 client : Baximco Ltd.
 category : Market Strategy

@@ -7,7 +7,7 @@ bgImage: images/background/page-title.jpg
 # tag : Ecommerce Advice
 tag : Индустриальные партнеры
 # image : images/project/project-8.jpg
-image : images/project/project-8-my.jpg
+image : images/project/project-81-my.jpg
 client : Baximco Ltd.
 category : Market Strategy
 expertise : Mobile App
