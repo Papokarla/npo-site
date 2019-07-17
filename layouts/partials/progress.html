@@ -8,7 +8,7 @@
                 {{ with $data.mission.title }} <h2 class="section-title section-title-border-half">{{ . }}</h2> {{ end }}
             </div>
             {{ "<!-- accordion -->" | safeHTML }}
-            <div class="col-lg-6">
+            {{/*  <div class="col-lg-6">  */}}
                 <div id="accordion" class="mb-md-50">
                     {{ range $index, $element:= $data.mission.accordion }}
                     <div class="card border-0 mb-4">
@@ -25,8 +25,8 @@
                     </div>
                     {{ end }}
                 </div>
-            </div>
-            {{ "<!-- progressbar -->" | safeHTML }}
+            {{/*  </div>  */}}
+            {{/*  {{ "<!-- progressbar -->" | safeHTML }}
             <div class="col-lg-6">
                 {{ range $data.skill.progressBar }}
                 <div class="progressbar">
@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 {{ end }}
-            </div>
+            </div>  */}}
         </div>
     </div>
 </section>

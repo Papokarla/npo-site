@@ -1,23 +1,26 @@
 enable : true
 sliderItem:
-  - subHeading : Мы сотрудничаем с инвесторами
-    heading : для интеграции науки, образования и производственных задач
-    description : создание посевного венчурного фонда для поддержки венчурных проектов  с момента старта проекта <br> инвестиции в инфраструктуру AI-кластера <br> преимущественное право на проведении НИОКР <br> формирование схемы для получения прибыли на вложенные инвестиции
+  - subHeading : АНО - Информационно-семантическое общество
+    heading : Трансфер технологий. Инновационный менеджмент. Коммерциализация научных разработок.
+    # description : создание посевного венчурного фонда для поддержки венчурных проектов  с момента старта проекта <br> инвестиции в инфраструктуру AI-кластера <br> преимущественное право на проведении НИОКР <br> формирование схемы для получения прибыли на вложенные инвестиции
+    description1 : Мы соединяем науку, образование и производство. <br><br> Решаем задачи индустриальных партнеров с помощью методов Искусственного Интеллекта.
     # bgImage : images/banner/banner-1.jpg
-    bgImage : images/banner/banner-1-my.jpg
-    # dataIcon : ti-comments
-    dataIcon : ti-money
-    dataText : Инвестиционные партнеры
+    bgImage : images/banner/banner-13-my.jpg
+    dataIcon : ti-comments
+    # dataIcon : ti-package
+    # dataIcon : ti-money
+    dataText : AI кластер
     btn : 
       enable : true
       btnText: Подробнее
       btnURL : 'posts/elaboration'
       
-  - subHeading : Мы решаем задачи
-    heading : используя самые современные научные разработки
-    description : Индустриальные партнеры выступают заказчиком новых проектов для резидентов  AI-кластера, <br> являются экспертами  по проектам.
+  - subHeading : Вместе с индустриальными партнерами
+    heading : Мы решаем задачи, используя последние достижения науки
+    # description : Индустриальные партнеры 
+    description1 : Для решения задач формируется проектная команда с необходимыми компетенциями - <br> включая ученых, разработчиков, инженеров.
     # bgImage : images/banner/banner-2.jpg
-    bgImage : images/banner/banner-2-my.jpg
+    bgImage : images/banner/banner-23-my.jpg
     # dataIcon : ti-bar-chart
     dataIcon : ti-package
     dataText : Индустриальные партнеры
@@ -26,28 +29,29 @@ sliderItem:
       btnText: Подробнее
       btnURL : 'posts/elaboration'
       
-  - subHeading : Мы тесно сотрудничаем
-    heading : с Новосибирским Государственным Университетом
-    description : преподаватели образовательных учреждений, выступают экспертами и консультантами, <br> сохраняют контакт со своими студентами для дальнейшей научной работы, <br> НГУ как университет НТИ, включение венчурных проектов в программы НТИ.
+  - subHeading : В сотрудничестве с институтами Новосибирского Научного Центра
+    heading : Мы внедряем последние достижения науки в производство
+    description1 : Наш подход основывается на уникальных разработках Semantic AI, разрабатываемых в ННЦ еще со времен СССР. Это позволяет создавать "Ответственный Искусственный Интеллект", логика принятия решений которого понятна человеку.
     # bgImage : images/banner/banner-3.jpg
-    bgImage : images/banner/banner-3-my.jpg
+    bgImage : images/banner/banner-31-my.jpg
     # dataIcon : ti-money
     dataIcon : ti-package
-    dataText : Научные учреждения
+    dataText : Наука и Образование
     btn : 
       enable : true
       btnText: Подробнее
       btnURL : 'posts/elaboration'
       
-  - subHeading : Мы реализуем проекты
-    heading : в рамках правительственных программ
-    # description : описание <br> описание <br> описание
+  - subHeading : Мы тесно сотрудничаем
+    heading : с Новосибирским Государственным Университетом
+    description1 : преподаватели образовательных учреждений, выступают экспертами и консультантами, <br> сохраняют контакт со своими студентами для дальнейшей научной работы, <br>  <br> НГУ как университет НТИ, включение венчурных проектов в программы НТИ.
     # bgImage : images/banner/banner-4.jpg
-    bgImage : images/banner/banner-4-my.jpg
+    bgImage : images/banner/banner-42-my.jpg
     dataIcon : ti-package
-    dataText : Правительство
+    dataText : Образование
     btn : 
       enable : true
       btnText: Подробнее
       btnURL : 'posts/elaboration'
+     
 

@@ -3,7 +3,7 @@ title: "ФИНТЕХ, ТЕЛЕКОМ"
 # title: "Market Strategy"
 date: 2018-09-29T11:54:02+06:00
 description : "This is meta description"
-image: images/service/service-3-my.jpg
+image: images/service/service-31-my.jpg
 # image: images/service/service-3.jpg
 bgImage: images/background/page-title.jpg
 icon: ti-server

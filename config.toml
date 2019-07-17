@@ -6,8 +6,8 @@ disableLanguages = [""] # desable language from here
 
 [params]
 #logo = "images/logo.png"
-logo = "images/logo-my.png"
-mail = "info@semant.org"
+logo = "images/logo-1-my.png"
+mail = "info@ai-cluster.ru"
 # mobile = "123456789"
 # Meta data
 description = "Airspace Hugo theme"
@@ -36,7 +36,7 @@ mailchimpFormName = "b_ceb1e37d329147705560caae4_ba8ba1e3b3" # replace this code
   # languageCode = "en-us"
   languageCode = "ru-RU"
   weight = 1
-  title = "Semant.org"
+  title = "ai-cluster.ru"
   # home = "Home"
   home = "Главная"
 
@@ -49,22 +49,22 @@ mailchimpFormName = "b_ceb1e37d329147705560caae4_ba8ba1e3b3" # replace this code
     URL = "/about"
     weight = 2
     
-    # [[Languages.ru.menu.nav]]
-    # name = "Service"
-    # URL = "/service"
-    # weight = 3
+    [[Languages.ru.menu.nav]]
+    name = "Service"
+    URL = "/service"
+    weight = 3
     
     [[Languages.ru.menu.nav]]
     # name = "Blog"
-    name = "Блог"
+    name = "Новости"
     URL = "/blog"
     weight = 4
     
-    [[Languages.ru.menu.nav]]
-    # name = "Team"
-    name = "Команда"
-    URL = "/team"
-    weight = 6
+    # [[Languages.ru.menu.nav]]
+    # # name = "Team"
+    # name = "Команда"
+    # URL = "/team"
+    # weight = 6
     
     [[Languages.ru.menu.nav]]
     # name = "Pricing"
@@ -82,14 +82,21 @@ mailchimpFormName = "b_ceb1e37d329147705560caae4_ba8ba1e3b3" # replace this code
     [[Languages.ru.menu.nav]]
     weight = 5
     # name = "Pages"
-    name = "ГосПрограммы"
+    name = "Проекты"
     hasChildren = true
 
       [[Languages.ru.menu.nav]]
       # parent = "Pages"
-      parent = "ГосПрограммы"
+      parent = "Проекты"
       # name = "Project"
-      name = "Цифровизация РФ"
+      name = "Проект1"
+      URL = "/project"
+
+      [[Languages.ru.menu.nav]]
+      # parent = "Pages"
+      parent = "Проекты"
+      # name = "Project"
+      name = "Проект2"
       URL = "/project"
 
 
@@ -196,7 +203,7 @@ mailchimpFormName = "b_ceb1e37d329147705560caae4_ba8ba1e3b3" # replace this code
       # footer
       [Languages.ru.params.footer]
       #logo = "images/logo-footer.png"
-      logo = "images/logo-footer-my.png"
+      logo = "images/logo-footer-1-my.png"
       # content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim."
       content = "AI-кластер – надежный фундамент для наукоемких проектов (deep tech)"
 
@@ -213,7 +220,7 @@ mailchimpFormName = "b_ceb1e37d329147705560caae4_ba8ba1e3b3" # replace this code
       subscribeContent = "АНО - Информационно-семантическое общество по развитию математических исследований"
 
       # copyright
-      copyright = "semant.org</span> &copy; 2019 All Right Reserved"
+      copyright = "ai-cluster.ru</span> &copy; 2019 All Right Reserved"
 
         # social icon
         # [[Languages.ru.params.footer.socialIcon]]

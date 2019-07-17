@@ -1,7 +1,6 @@
 ---
-title: "Наша миссия"
-# title: "About us"
-date: 2019-07-08T18:19:33+06:00
+title: "About Us"
+date: 2018-07-12T18:19:33+06:00
 bgImage: images/background/page-title.jpg
 description : "This is meta description"
 ---
