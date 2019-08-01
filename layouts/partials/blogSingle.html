@@ -8,14 +8,20 @@
                     <div class="p-4">
                         <h3>{{ .Title }}</h3>
                         <ul class="list-inline d-block pb-4 border-bottom mb-3">
-                            <li class="list-inline-item text-color">Posted By {{ .Params.Author }}</li>
-                            <li class="list-inline-item text-color">On {{ .PublishDate.Format "02 Jan" }}</li>
-                            <li class="list-inline-item text-color">Tag:
+                            <li class="list-inline-item text-color">Автор {{ .Params.Author }}</li>
+                            <li class="list-inline-item text-color">Дата публикации {{ .PublishDate.Format "02 Jan" }}</li>
+                            <li class="list-inline-item text-color">Тэги:
                                 {{ range .Params.Tags }}
                                 <a class="text-color" href="{{ "tags/" | absURL }}{{ . | lower }}">{{ . }}</a>
                                 {{ end }}
                             </li>
                         </ul>
+                        {{ "<!-- Brochure -->" | safeHTML }}
+                        <div class="rounded border py-3 px-4 mb-50">
+                            <i class="d-inline-block mr-1 text-dark ti-files" style="font-size: 20px;"></i>
+                            <h4 class="mb-1 d-inline-block">Документ полностью</h4>
+                            <a class="font-secondary text-color d-block ml-4" href="{{ .Params.BrochureURL | absURL }}">Скачать pdf</a>
+                        </div>
                         <div class="post-content">
                             {{ .Content }}
                         </div>
@@ -24,7 +30,7 @@
                 <div class="py-4 border-bottom mb-100">
                     <div class="row">
                         <div class="col-lg-5 mb-4 mb-lg-0">
-                            {{ "<!-- share-icon -->" | safeHTML }}
+                            {{/*  {{ "<!-- share-icon -->" | safeHTML }}
                             <div class="d-flex">
                                 <span class="font-weight-light mt-2 mr-3">Share:</span>
                                 <ul class="list-inline d-inline-block">
@@ -36,7 +42,7 @@
                                     </li>
                                     {{ end }}
                                 </ul>
-                            </div>
+                            </div>  */}}
                         </div>
                         {{ "<!-- tags -->" | safeHTML }}
                         </div>

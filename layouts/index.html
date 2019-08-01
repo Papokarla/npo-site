@@ -24,7 +24,7 @@
                     <div class="card-body p-0">
                         <i class="square-icon translateY-33 rounded {{ .Params.Icon }}"></i>
                         <p class="card-text mx-2 mb-0">{{ .Summary }}</p>
-                        <a href="{{ .Permalink }}" class="btn btn-secondary translateY-25">Подробнее</a>
+                        {{/*  <a href="{{ .Permalink }}" class="btn btn-secondary translateY-25">Подробнее</a>  */}}
                         <!-- <a href="{{ .Permalink }}" class="btn btn-secondary translateY-25">Read More</a> -->
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                             </div>
                             <div class="p-3">
                                 <a href="{{ .Permalink }}" class="h4 font-primary text-dark">{{ .Title }}</a>
-                                <p>by {{ .Params.Author }}</p>
+                                <p>Автор: {{ .Params.Author }}</p>
                             </div>
                         </div>
                     </div>
