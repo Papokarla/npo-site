@@ -29,8 +29,8 @@ philosophy1 :
   # title : Our Philosophy
   content : Во главу угла ставится конкретная проблема, которую хочет решить индустриальный партнер, чтобы достичь нужных целей в бизнесе.
   image : images/about/philosophy1.jpg
-  description : Наше решение
-  content1 : Cоздаются прорывные технологии
+  description : Наши задачи
+  content1 : 1. Интеграция научного потенциала Новосибирского Академгородка с производственными предприятиями <br> 2. Участие в программе цифровизации правительства России <br> 3. Подбор проектных команд для выполнения наукоемких проектов любой сложности <br> 4. Применение новейших научных разработок для повышения производительности труда и оптимизации производства <br> 5. Внедрение искусственного интеллекта
   # description : Производство
   # content1 : Получает решение проблемы с применением новейших научных подходов
 
@@ -46,25 +46,25 @@ philosophy1 :
 
   btn :
     enable : true
-    btnText : Explore More
+    btnText : Подробнее
     btnURL : "#"
 
 funfacts : 
   enable : true
   bgImage : images/background/cta.jpg
   counter : 
-    - title : Projects Done
+    - title : Оптимизация производственных операций (трлн.руб)
       icon : ti-server
-      count : 230
+      count : 4.0
       
-    - title : Satisfied Clients
+    - title : Повышение эффективности рынка труда (трлн.руб)
       icon : ti-face-smile
-      count : 789
+      count : 2.9
       
-    - title : Cup Of Coffee
+    - title : Повышение производительности оборудования (трлн.руб)
       icon : ti-thumb-up
-      count : 580
+      count : 1.4
       
-    - title : Awards Win
+    - title : Повышение эффективности НИОКР и разработки продуктов (трлн.руб)
       icon : ti-cup
-      count : 130
+      count : 0.5

@@ -1,16 +1,16 @@
 ---
 title: "Какую проблему мы решаем"
 bgImage: images/background/page-title.jpg
-# date: 2019-09-24T11:07:10+06:00
+date: 2019-07-31T11:07:10+06:00
 description : "This is meta description"
-# author: Semant.org
+author: АНО «ИНФОРМАЦИОННО-СЕМАНТИЧЕСКОЕ ОБЩЕСТВО»
 type: npo
 # image: images/blog/blog-3.jpg
 image: images/blog/our-approach.jpg
 categories: 
   - "Наш подход"
 # tags:
-  - "Advice"
+  # - "Advice"
 ---
 
 Венчурные инвестиции в наукоемкие проекты и компании (deep tech) остаются одними из наиболее популярных инструментов на Американском и Европейском рынках.

@@ -11,11 +11,14 @@ mail = "info@ai-cluster.ru"
 # mobile = "123456789"
 # Meta data
 description = "Airspace Hugo theme"
-author = "themefisher"
+author = "ai-cluster"
 # google map
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-mapLatitude = "51.5223477"
-mapLongitude = "-0.1622023"
+# gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAStWCjwOyD8iNfQL41bfIjXHW076NxW9s"
+mapLatitude = "54.863372"
+# mapLatitude = "51.5223477"
+mapLongitude = "83.090508"
+# mapLongitude = "-0.1622023"
 mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
@@ -50,54 +53,61 @@ mailchimpFormName = "b_ceb1e37d329147705560caae4_ba8ba1e3b3" # replace this code
     weight = 2
     
     [[Languages.ru.menu.nav]]
-    name = "Service"
+    name = "Проекты/Направления"
+    # name = "Service"
     URL = "/service"
     weight = 3
     
     [[Languages.ru.menu.nav]]
     # name = "Blog"
-    name = "Новости"
+    name = "Новости/Статьи"
     URL = "/blog"
     weight = 4
     
-    # [[Languages.ru.menu.nav]]
-    # # name = "Team"
-    # name = "Команда"
-    # URL = "/team"
-    # weight = 6
-    
     [[Languages.ru.menu.nav]]
-    # name = "Pricing"
-    name = "Партнеры"
-    # URL = "/pricing"
+    # name = "Team"
+    name = "Команда"
     URL = "/team"
-    weight = 8
+    weight = 7
+    
+    # [[Languages.ru.menu.nav]]
+    # name = "Pricing"
+    # name = "Партнеры"
+    # URL = "/pricing"
+    # URL = "/team"
+    # weight = 8
     
     [[Languages.ru.menu.nav]]
     # name = "Contact"
     name = "Контакты"
     URL = "/contact"
-    weight = 7
+    weight = 6
 
-    [[Languages.ru.menu.nav]]
-    weight = 5
+    # [[Languages.ru.menu.nav]]
+    # weight = 5
     # name = "Pages"
-    name = "Проекты"
-    hasChildren = true
+    # name = "Проекты"
+    # hasChildren = true
 
-      [[Languages.ru.menu.nav]]
+      # [[Languages.ru.menu.nav]]
       # parent = "Pages"
-      parent = "Проекты"
+      # parent = "Проекты"
       # name = "Project"
-      name = "Проект1"
-      URL = "/project"
+      # name = "Проект1"
+      # URL = "/project"
 
-      [[Languages.ru.menu.nav]]
+      # [[Languages.ru.menu.nav]]
       # parent = "Pages"
-      parent = "Проекты"
+      # parent = "Проекты"
       # name = "Project"
-      name = "Проект2"
-      URL = "/project"
+      # name = "Проект2"
+      # URL = "/project"
+
+      # новый пункт меню статьи
+      # [[Languages.ru.menu.nav]]
+      # name = "Статьи"
+      # URL = "/article"
+      # weight = 3
 
 
       # Quote Button

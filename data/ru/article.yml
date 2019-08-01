@@ -1,0 +1,17 @@
+title : Наши статьи
+content : Краткое описание <br> об авторах, темах докладов и тд.
+filterList : 
+  - filterTitle : Статьи Пальчунова
+    dataFilter : Статьи-Пальчунова
+
+  - filterTitle : Статьи Витяева
+    dataFilter : Статьи-Витяева
+    
+  - filterTitle : По Expasoft
+    dataFilter : По-Expasoft
+    
+  # - filterTitle : Dynamic Development
+  #   dataFilter : Dynamic-Development
+    
+  # - filterTitle : Financing
+  #   dataFilter : Financing

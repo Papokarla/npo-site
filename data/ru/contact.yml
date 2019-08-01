@@ -1,16 +1,16 @@
 enable : true
-title : Contact Us
-formTitle : Contact Form
-btnText : Submit Now
+title : Наши контакты
+formTitle : Для Вашего сообщения
+btnText : Отправить
 contactList : 
   - icon : ti-mobile
-    listItem1 : +88 0123 456 789
-    listItem2 : +88 987 654 3210
+    listItem1 : +70 000 000 0000
+    # listItem2 : +88 987 654 3210
     
   - icon : ti-email
-    listItem1 : info@biztrox.com
-    listItem2 : biztrox@email.com
+    listItem1 : info@ai-cluster.ru
+    # listItem2 : biztrox@email.com
     
   - icon : ti-map-alt
-    listItem1 : 24/B Garden Street.
-    listItem2 : Northambia, Weals, UK
+    listItem1 : Мусы Джалиля, 3/1
+    listItem2 : Россия, Новосибирск
